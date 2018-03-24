@@ -21,6 +21,10 @@ import { fakeFetch } from './fakeFetch';
 // Inside index.js inside Wallet
 // maybe look there?
 
+// My best bet is to look there and try to copy it, perhaps
+// and make a version that works with orders too instead of just wallets
+// to display them on the screen
+
 const request = (urlGetter, options) => {
   console.log('this is a mocked call');
 
